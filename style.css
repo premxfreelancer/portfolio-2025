@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .header {
     width: 100%;
     height: 15vh;
@@ -45,4 +47,133 @@ align-items: center;
     justify-content: space-evenly;
     align-items: center;
 }
+.main {
+    width: 100%;
+    height: 85vh;
+    /* background: green; */
+    display: flex;
+ 
+    
+    
+    background-position: bottom right; /* Position at bottom-right */
+    background-size: 100% 100%; /* Stretch to fit both width and height */
+    background-repeat: no-repeat;
 
+    
+}
+.sec1, .sec2 {
+    width: 50%;
+    height: 100%;
+}
+
+.sec2 {
+    /* background-color: red; */
+}
+
+.sec2h {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 10vh;
+    font-family: "Share Tech", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 2px 1px 4px rgb(240, 238, 238);
+}
+
+.sec2d {
+    font-family: 'Poppins', sans-serif; /* Use a specific font */
+    color: #333; /* Professional dark text */
+    /* background-color: #f9f9f9;  */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    line-height: 1.6; /* Improved readability */
+}
+
+.sec2d h2 {
+    font-size: 2rem; /* Headline size */
+    color: #111; /* Stronger headline color */
+    margin-bottom: 10px; /* Spacing below heading */
+}
+
+.sec2d h3 {
+    font-size: 1.5rem; /* Subheading size */
+    color: #222; /* Darker subheading color */
+    margin-top: 20px; /* Spacing above subheading */
+    margin-bottom: 10px; /* Spacing below subheading */
+}
+
+.sec2d p {
+    font-size: 1rem; /* Body text size */
+    color: #555; /* Softer text color for less contrast */
+    margin-bottom: 15px; /* Spacing between paragraphs */
+    text-align: justify; /* Neater alignment */
+}
+
+.sec2d a {
+    color: #007bff; /* Highlighted link color */
+    text-decoration: none; /* No underline */
+}
+
+.sec2d a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec1 img {
+ 
+    width: 70%;
+    height: 80%;
+   overflow: hidden;
+}
+
+.g2p {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background: green;
+    color: #fff; /* Text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .g2p:hover {
+    transform: scale(1.05); /* Slight zoom-in on hover */
+    background: green /* Reverse gradient on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  }
+  
+  .g2p:active {
+    transform: scale(0.95); /* Slight shrink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  }
+  
+  .content {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+  }
+
+
+  .secsen1 {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
