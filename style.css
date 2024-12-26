@@ -4,6 +4,8 @@
 }
 html {
     scroll-behavior: smooth;
+    /* background-color: rgb(231, 54, 54);
+    color: white; */
   }
 .header {
     width: 100%;
@@ -180,7 +182,7 @@ align-items: center;
 
 .row {
     width: 100%;
-    height: 33%;
+    height: 40%;
     /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
@@ -200,8 +202,7 @@ align-items: center;
     background-color: #ffffff; /* White background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-   
-   
+  
     border: 1px solid #e0e0e0; /* Light border for a clean finish */
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
 }
@@ -241,6 +242,21 @@ align-items: center;
     line-height: 1.6; /* Improved readability */
 } 
 
+
+
 .col:hover {
     background: rgb(244, 247, 249);
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+
+.buttons div:hover {
+text-decoration: underline;
+transform: scale(1.02);
+}
+
+.logo img:hover {
+    transform: scale(1.02);
 }
